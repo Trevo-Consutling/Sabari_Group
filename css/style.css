@@ -253,6 +253,7 @@ input[type="checkbox"] {
     left: 0;
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
+    
 }
 .js .animate-box {
     opacity: 0;
@@ -1835,6 +1836,7 @@ button.mfp-arrow {
     margin-bottom: 20px;
     font-size: 40px;
     text-transform: uppercase;
+    
 }
 .bauen-post-comment-wrap {
     display: flex;
