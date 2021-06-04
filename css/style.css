@@ -2663,3 +2663,30 @@ button.mfp-arrow {
         text-align: center;
     }
 }
+      #home h1{
+        color: #ffffffc5;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: monospace;
+        letter-spacing: 7px;
+        cursor: pointer
+      }
+      h1 span{
+        transition: .5s linear
+      }
+      h1:hover span:nth-child(1){
+        margin-right: 5px
+      }
+      h1:hover span:nth-child(1):after{
+        content: " ";
+      }
+      h1:hover span:nth-child(2){
+        margin-left: 5px
+      }
+      h1:hover span{
+        color: rgba(255, 255, 255, 0.932);
+        text-shadow: 0 0 10px #ffffff,
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff;
+      }
+
