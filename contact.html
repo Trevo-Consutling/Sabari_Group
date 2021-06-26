@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
                         <p><b>Contact Form</b></p>
-                        <form method="post" class="row">
+                        <form method="post" class="row" action="contact-form_script.php">
                             <div class="col-md-12">
                                 <input type="text" name="name" id="name" placeholder="Full Name">
                             </div>
@@ -102,7 +102,7 @@
                                 <textarea name="message" id="message" cols="40" rows="4" placeholder="Your Message"></textarea>
                             </div>
                             <div class="col-md-12">
-                                <button class="butn-dark mt-15"><a href="#0"><span>Send</span></a></button>
+                                <button class="butn-dark mt-15" name="sendMailBtn" type="submit"><a><span>Send</span></a></button>
                             </div>
                         </form>
                     </div>

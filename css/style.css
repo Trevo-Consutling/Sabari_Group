@@ -1909,6 +1909,19 @@ button.mfp-arrow {
 	letter-spacing: 3px;
 	border: 1px solid #fff;
 }
+.butn-light2 a {
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: #fff;
+	padding: 0px 10px;
+	margin: 20px;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: 3px;
+	border: 1px solid #fff;
+}
 .butn-light a:after {
 	content: '';
 	width: 0;
@@ -1932,6 +1945,31 @@ button.mfp-arrow {
 	transition: width 0.3s ease;
 }
 .butn-light a:hover span {
+	color: #272727;
+}
+.butn-light2 a:after {
+	content: '';
+	width: 0;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background: #fff;
+}
+.butn-light2 a span {
+	position: relative;
+	z-index: 2;
+}
+.butn-light2 a:hover:after {
+	width: 100%;
+	left: 0;
+	-webkit-transition: width 0.3s ease;
+	transition: width 0.3s ease;
+}
+.butn-light2 a:hover span {
 	color: #272727;
 }
 
